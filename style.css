@@ -1,0 +1,185 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+  color: #202938;
+  font-family: system-ui, sans-serif;
+}
+
+.container {
+  width: min(1100px, 96%);
+  margin: 32px auto;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+header p,
+footer {
+  color: #687386;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+select,
+button {
+  font: inherit;
+  padding: 10px 14px;
+  border: 1px solid #ccd2dc;
+  border-radius: 8px;
+}
+
+select {
+  background: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primary {
+  background: #3478f6;
+  color: white;
+  border-color: #3478f6;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: #687386;
+  font-size: 14px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  background: white;
+  border: 1px solid #dce1e8;
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #e5e9ef;
+  vertical-align: middle;
+}
+
+th {
+  background: #edf1f6;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+tbody tr:hover {
+  background: #f8faff;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.number {
+  width: 55px;
+  text-align: center;
+}
+
+.audio-column,
+.check-column {
+  width: 70px;
+  text-align: center;
+}
+
+.answer-cell {
+  min-width: 240px;
+  line-height: 1.6;
+}
+
+.answer-hidden {
+  color: #a0a8b5;
+  font-size: 14px;
+}
+
+.audio-button {
+  padding: 7px 10px;
+  background: #e8efff;
+  color: #285bb5;
+  border: none;
+  border-radius: 8px;
+}
+
+.complete-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 650px) {
+  .container {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0 12px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .toolbar {
+    align-items: stretch;
+  }
+
+  .toolbar label {
+    width: 100%;
+  }
+
+  select,
+  .primary {
+    flex: 1;
+  }
+
+  th,
+  td {
+    padding: 12px 10px;
+  }
+
+  .table-wrapper {
+    border-radius: 8px;
+  }
+
+  table {
+    min-width: 650px;
+  }
+}

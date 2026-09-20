@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italian Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Italian Practice 🇮🇹</h1>
+      <p>日本語からイタリア語へ、瞬間作文トレーニング</p>
+    </header>
+
+    <section class="toolbar">
+      <label for="category">文法カテゴリ</label>
+      <select id="category">
+        <option value="all">すべて</option>
+      </select>
+
+      <button id="toggle-answers" class="primary">
+        解答を表示
+      </button>
+    </section>
+
+    <div class="summary">
+      <span id="count">読み込み中...</span>
+      <span id="completion">完了 0 問</span>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th class="number">No.</th>
+            <th>日本語</th>
+            <th>イタリア語</th>
+            <th class="audio-column">音声</th>
+            <th class="check-column">完了</th>
+          </tr>
+        </thead>
+        <tbody id="question-list">
+          <tr>
+            <td colspan="5">読み込み中...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      <p>まずは日本語だけを見て、声に出して答えてみましょう。</p>
+    </footer>
+  </main>
+</body>
+</html>
