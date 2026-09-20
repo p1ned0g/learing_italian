@@ -1,62 +1,1657 @@
-
 {
   "version": 1,
   "language": "it",
   "title": "Italian Flashcards",
   "questions": [
-    {"id":1,"category":"基本・現在形","difficulty":"A1","question":"私は日本人です。","answer":"Sono giapponese."},
-    {"id":2,"category":"基本・現在形","difficulty":"A1","question":"私はイタリア語を勉強しています。","answer":"Studio l’italiano."},
-    {"id":3,"category":"基本・現在形","difficulty":"A1","question":"彼は学生です。","answer":"Lui è uno studente."},
-    {"id":4,"category":"基本・現在形","difficulty":"A1","question":"私たちはローマに住んでいます。","answer":"Abitiamo a Roma."},
-    {"id":5,"category":"基本・現在形","difficulty":"A1","question":"君はコーヒーが好きですか？","answer":"Ti piace il caffè?"},
-    {"id":6,"category":"基本・現在形","difficulty":"A1","question":"私は毎朝7時に起きます。","answer":"Mi alzo alle sette ogni mattina."},
-    {"id":7,"category":"基本・現在形","difficulty":"A1","question":"彼女はイタリア語を上手に話します。","answer":"Lei parla bene italiano."},
-    {"id":8,"category":"基本・現在形","difficulty":"A1","question":"私には兄が一人います。","answer":"Ho un fratello."},
-    {"id":9,"category":"基本・現在形","difficulty":"A1","question":"今日はとても寒いです。","answer":"Oggi fa molto freddo."},
-    {"id":10,"category":"基本・現在形","difficulty":"A1","question":"私はお腹が空いていますが、喉は渇いていません。","answer":"Ho fame, ma non ho sete."},
-
-    {"id":11,"category":"疑問文・前置詞","difficulty":"A1","question":"あなたはどこに住んでいますか？","answer":"Dove abita?"},
-    {"id":12,"category":"疑問文・前置詞","difficulty":"A1","question":"あなたは何時に仕事を始めますか？","answer":"A che ora cominci a lavorare?"},
-    {"id":13,"category":"疑問文・前置詞","difficulty":"A1","question":"私は駅の近くに住んでいます。","answer":"Abito vicino alla stazione."},
-    {"id":14,"category":"疑問文・前置詞","difficulty":"A1","question":"彼女は友達と一緒に映画館へ行きます。","answer":"Lei va al cinema con un’amica."},
-    {"id":15,"category":"疑問文・前置詞","difficulty":"A1","question":"これは私の本です。","answer":"Questo è il mio libro."},
-    {"id":16,"category":"疑問文・前置詞","difficulty":"A1","question":"私はスーパーでリンゴを3個買います。","answer":"Compro tre mele al supermercato."},
-    {"id":17,"category":"疑問文・前置詞","difficulty":"A1","question":"私の母は医者です。","answer":"Mia madre è medico."},
-    {"id":18,"category":"疑問文・前置詞","difficulty":"A1","question":"私は週末に海へ行きたいです。","answer":"Voglio andare al mare nel fine settimana."},
-    {"id":19,"category":"疑問文・前置詞","difficulty":"A1","question":"あなたは何を食べたいですか？","answer":"Che cosa vuoi mangiare?"},
-    {"id":20,"category":"疑問文・前置詞","difficulty":"A1","question":"このレストランはあのレストランより高いです。","answer":"Questo ristorante è più caro di quello."},
-
-    {"id":21,"category":"過去形","difficulty":"A2","question":"昨日、私は映画を見ました。","answer":"Ieri ho visto un film."},
-    {"id":22,"category":"過去形","difficulty":"A2","question":"先週、私たちはフィレンツェへ行きました。","answer":"La settimana scorsa siamo andati a Firenze."},
-    {"id":23,"category":"過去形","difficulty":"A2","question":"彼女は朝ご飯を食べませんでした。","answer":"Lei non ha fatto colazione."},
-    {"id":24,"category":"過去形","difficulty":"A2","question":"あなたは昨日何をしましたか？","answer":"Che cosa hai fatto ieri?"},
-    {"id":25,"category":"過去形","difficulty":"A2","question":"私は子供の頃、毎日サッカーをしていました。","answer":"Da bambino giocavo a calcio ogni giorno."},
-    {"id":26,"category":"過去形","difficulty":"A2","question":"昨日は雨が降っていました。","answer":"Ieri pioveva."},
-    {"id":27,"category":"過去形","difficulty":"A2","question":"私が家に帰ったとき、母は料理をしていました。","answer":"Quando sono tornato a casa, mia madre cucinava."},
-    {"id":28,"category":"過去形","difficulty":"A2","question":"私たちは2年前にイタリアに住んでいました。","answer":"Abitavamo in Italia due anni fa."},
-    {"id":29,"category":"過去形","difficulty":"A2","question":"私はまだ昼ご飯を食べていません。","answer":"Non ho ancora pranzato."},
-    {"id":30,"category":"過去形","difficulty":"A2","question":"彼はもう出発しました。","answer":"È già partito."},
-
-    {"id":31,"category":"代名詞・命令形","difficulty":"A2","question":"私は彼を知っています。","answer":"Lo conosco."},
-    {"id":32,"category":"代名詞・命令形","difficulty":"A2","question":"私はそれを買いたいです。","answer":"Lo voglio comprare. / Voglio comprarlo."},
-    {"id":33,"category":"代名詞・命令形","difficulty":"A2","question":"彼女に電話してください。","answer":"Chiamala."},
-    {"id":34,"category":"代名詞・命令形","difficulty":"A2","question":"私はあなたに一つ質問があります。","answer":"Ho una domanda da farti."},
-    {"id":35,"category":"代名詞・命令形","difficulty":"A2","question":"私にそれを説明してください。","answer":"Spiegamelo."},
-    {"id":36,"category":"代名詞・命令形","difficulty":"A2","question":"ここでタバコを吸ってはいけません。","answer":"Non si può fumare qui."},
-    {"id":37,"category":"代名詞・命令形","difficulty":"A2","question":"もっとゆっくり話してください。","answer":"Parli più lentamente, per favore."},
-    {"id":38,"category":"代名詞・命令形","difficulty":"A2","question":"明日、早く起きなければなりません。","answer":"Devo alzarmi presto domani."},
-    {"id":39,"category":"代名詞・命令形","difficulty":"A2","question":"私は泳ぐことができますが、ダイビングはできません。","answer":"So nuotare, ma non so fare immersioni."},
-    {"id":40,"category":"代名詞・命令形","difficulty":"A2","question":"ここに座ってもいいですか？","answer":"Posso sedermi qui?"},
-
-    {"id":41,"category":"未来・条件法・接続法","difficulty":"A2","question":"明日は雨が降るでしょう。","answer":"Domani pioverà."},
-    {"id":42,"category":"未来・条件法・接続法","difficulty":"A2","question":"来年、私はイタリアへ行くつもりです。","answer":"L’anno prossimo andrò in Italia."},
-    {"id":43,"category":"未来・条件法・接続法","difficulty":"A2","question":"私はあなたの立場なら、もっと勉強するでしょう。","answer":"Se fossi in te, studierei di più."},
-    {"id":44,"category":"未来・条件法・接続法","difficulty":"A2","question":"コーヒーを一杯いただきたいのですが。","answer":"Vorrei un caffè, per favore."},
-    {"id":45,"category":"未来・条件法・接続法","difficulty":"A2","question":"時間があれば、あなたを手伝います。","answer":"Se ho tempo, ti aiuto."},
-    {"id":46,"category":"未来・条件法・接続法","difficulty":"A2","question":"もしお金があったら、イタリアへ行くのに。","answer":"Se avessi soldi, andrei in Italia."},
-    {"id":47,"category":"未来・条件法・接続法","difficulty":"A2","question":"彼が来ることを願っています。","answer":"Spero che venga."},
-    {"id":48,"category":"未来・条件法・接続法","difficulty":"A2","question":"あなたが幸せであることが大切です。","answer":"È importante che tu sia felice."},
-    {"id":49,"category":"未来・条件法・接続法","difficulty":"A2","question":"私はイタリア語を話す人を探しています。","answer":"Cerco una persona che parli italiano."},
-    {"id":50,"category":"未来・条件法・接続法","difficulty":"A2","question":"私はイタリア語をもっと上手に話せるようになりたいです。","answer":"Vorrei riuscire a parlare italiano meglio."}
+    {
+      "id": 1,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "私は日本人です。",
+      "answer": "Sono giapponese.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "essere の1人称単数 sono。国籍形容詞は主語に合わせる。"
+          }
+        ],
+        "words": [
+          {
+            "word": "sono",
+            "base": "essere",
+            "meaning": "です／〜である",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "giapponese",
+            "base": "giapponese",
+            "meaning": "日本人",
+            "partOfSpeech": "形容詞・名詞"
+          }
+        ],
+        "english": "sono＝am、giapponese＝Japanese。英語は I am Japanese."
+      }
+    },
+    {
+      "id": 2,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "私はイタリア語を勉強しています。",
+      "answer": "Studio l’italiano.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "studiare の1人称単数 studio。言語名には定冠詞を付けることが多い。"
+          }
+        ],
+        "words": [
+          {
+            "word": "studio",
+            "base": "studiare",
+            "meaning": "勉強する",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "italiano",
+            "base": "italiano",
+            "meaning": "イタリア語",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "studio＝study、l’italiano＝Italian language。英語は I study Italian."
+      }
+    },
+    {
+      "id": 3,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "彼は学生です。",
+      "answer": "Lui è uno studente.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "è は essere の3人称単数。uno は男性名詞 studente の前で使う不定冠詞。"
+          }
+        ],
+        "words": [
+          {
+            "word": "lui",
+            "base": "lui",
+            "meaning": "彼",
+            "partOfSpeech": "代名詞"
+          },
+          {
+            "word": "studente",
+            "base": "studente",
+            "meaning": "学生",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "lui＝he、è＝is、studente＝student。英語は He is a student."
+      }
+    },
+    {
+      "id": 4,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "私たちはローマに住んでいます。",
+      "answer": "Abitiamo a Roma.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "abitare の1人称複数は abitiamo。都市名の前は通常 a。"
+          }
+        ],
+        "words": [
+          {
+            "word": "abitiamo",
+            "base": "abitare",
+            "meaning": "住む",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "Roma",
+            "base": "Roma",
+            "meaning": "ローマ",
+            "partOfSpeech": "固有名詞"
+          }
+        ],
+        "english": "abitiamo＝we live、a Roma＝in Rome。英語は We live in Rome."
+      }
+    },
+    {
+      "id": 5,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "君はコーヒーが好きですか？",
+      "answer": "Ti piace il caffè?",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "piacere は「好みに合う」。ti は「君に」、好きな物 il caffè が文法上の主語。"
+          }
+        ],
+        "words": [
+          {
+            "word": "ti",
+            "base": "tu",
+            "meaning": "君に",
+            "partOfSpeech": "代名詞"
+          },
+          {
+            "word": "piace",
+            "base": "piacere",
+            "meaning": "気に入る",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "caffè",
+            "base": "caffè",
+            "meaning": "コーヒー",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "ti＝to you、piace＝is pleasing/like、caffè＝coffee。直訳は Coffee is pleasing to you."
+      }
+    },
+    {
+      "id": 6,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "私は毎朝7時に起きます。",
+      "answer": "Mi alzo alle sette ogni mattina.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "alzarsi は再帰動詞。mi alzo＝私は起きる。時刻には alle、頻度には ogni。"
+          }
+        ],
+        "words": [
+          {
+            "word": "mi alzo",
+            "base": "alzarsi",
+            "meaning": "起きる",
+            "partOfSpeech": "再帰動詞"
+          },
+          {
+            "word": "sette",
+            "base": "sette",
+            "meaning": "7",
+            "partOfSpeech": "数詞"
+          },
+          {
+            "word": "ogni mattina",
+            "base": "ogni mattina",
+            "meaning": "毎朝",
+            "partOfSpeech": "副詞句"
+          }
+        ],
+        "english": "mi alzo＝I get up、alle sette＝at seven、ogni mattina＝every morning."
+      }
+    },
+    {
+      "id": 7,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "彼女はイタリア語を上手に話します。",
+      "answer": "Lei parla bene italiano.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "parlare の3人称単数 parla。bene は動詞を修飾する副詞。"
+          }
+        ],
+        "words": [
+          {
+            "word": "parla",
+            "base": "parlare",
+            "meaning": "話す",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "bene",
+            "base": "bene",
+            "meaning": "上手に",
+            "partOfSpeech": "副詞"
+          }
+        ],
+        "english": "lei＝she、parla＝speaks、bene＝well。英語は She speaks Italian well."
+      }
+    },
+    {
+      "id": 8,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "私には兄が一人います。",
+      "answer": "Ho un fratello.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "avere の1人称単数 ho は所有・存在を表す。fratello は男性名詞。"
+          }
+        ],
+        "words": [
+          {
+            "word": "ho",
+            "base": "avere",
+            "meaning": "持っている／いる",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "fratello",
+            "base": "fratello",
+            "meaning": "兄弟・兄",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "ho＝I have、un fratello＝a brother。英語は I have a brother."
+      }
+    },
+    {
+      "id": 9,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "今日はとても寒いです。",
+      "answer": "Oggi fa molto freddo.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "天候は fare を使う慣用表現 fa freddo。molto は「とても」。"
+          }
+        ],
+        "words": [
+          {
+            "word": "oggi",
+            "base": "oggi",
+            "meaning": "今日",
+            "partOfSpeech": "副詞"
+          },
+          {
+            "word": "freddo",
+            "base": "freddo",
+            "meaning": "寒い／寒さ",
+            "partOfSpeech": "形容詞・名詞"
+          }
+        ],
+        "english": "oggi＝today、fa freddo＝it is cold。英語の it は形式主語で、伊語では通常不要."
+      }
+    },
+    {
+      "id": 10,
+      "category": "基本・現在形",
+      "difficulty": "A1",
+      "question": "私はお腹が空いていますが、喉は渇いていません。",
+      "answer": "Ho fame, ma non ho sete.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "空腹・喉の渇きは avere fame/sete。否定は動詞の前に non。"
+          }
+        ],
+        "words": [
+          {
+            "word": "fame",
+            "base": "fame",
+            "meaning": "空腹",
+            "partOfSpeech": "名詞"
+          },
+          {
+            "word": "sete",
+            "base": "sete",
+            "meaning": "喉の渇き",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "ho fame＝I am hungry、ma＝but、non ho sete＝I am not thirsty. 英語は be、伊語は have."
+      }
+    },
+    {
+      "id": 11,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "あなたはどこに住んでいますか？",
+      "answer": "Dove abita?",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "dove は場所を尋ねる疑問詞。abita は敬称 Lei にも使う3人称単数形。"
+          }
+        ],
+        "words": [
+          {
+            "word": "dove",
+            "base": "dove",
+            "meaning": "どこ",
+            "partOfSpeech": "疑問副詞"
+          },
+          {
+            "word": "abita",
+            "base": "abitare",
+            "meaning": "住む",
+            "partOfSpeech": "動詞"
+          }
+        ],
+        "english": "dove＝where、abita＝do you live (formal)。英語は Where do you live?"
+      }
+    },
+    {
+      "id": 12,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "あなたは何時に仕事を始めますか？",
+      "answer": "A che ora cominci a lavorare?",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "A che ora は「何時に」。cominciare a + 不定詞で「〜し始める」。"
+          }
+        ],
+        "words": [
+          {
+            "word": "che ora",
+            "base": "che ora",
+            "meaning": "何時",
+            "partOfSpeech": "疑問表現"
+          },
+          {
+            "word": "cominci",
+            "base": "cominciare",
+            "meaning": "始める",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "lavorare",
+            "base": "lavorare",
+            "meaning": "働く",
+            "partOfSpeech": "動詞"
+          }
+        ],
+        "english": "cominci＝you begin、lavorare＝to work。英語は What time do you start working?"
+      }
+    },
+    {
+      "id": 13,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "私は駅の近くに住んでいます。",
+      "answer": "Abito vicino alla stazione.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "vicino a は「〜の近く」。a + la は alla に縮約する。"
+          }
+        ],
+        "words": [
+          {
+            "word": "vicino a",
+            "base": "vicino a",
+            "meaning": "〜の近く",
+            "partOfSpeech": "前置詞句"
+          },
+          {
+            "word": "stazione",
+            "base": "stazione",
+            "meaning": "駅",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "abito＝I live、vicino alla stazione＝near the station。英語は I live near the station."
+      }
+    },
+    {
+      "id": 14,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "彼女は友達と一緒に映画館へ行きます。",
+      "answer": "Lei va al cinema con un’amica.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "andare a + 場所。a + il は al。con は「〜と一緒に」。un’amica は女性の友達。"
+          }
+        ],
+        "words": [
+          {
+            "word": "va",
+            "base": "andare",
+            "meaning": "行く",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "cinema",
+            "base": "cinema",
+            "meaning": "映画館",
+            "partOfSpeech": "名詞"
+          },
+          {
+            "word": "amica",
+            "base": "amica",
+            "meaning": "女友達",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "va＝goes、al cinema＝to the cinema、con＝with、un’amica＝a female friend."
+      }
+    },
+    {
+      "id": 15,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "これは私の本です。",
+      "answer": "Questo è il mio libro.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "questo は「これ／この」。所有形容詞 mio は通常、名詞と定冠詞の間に置く。"
+          }
+        ],
+        "words": [
+          {
+            "word": "questo",
+            "base": "questo",
+            "meaning": "これ／この",
+            "partOfSpeech": "指示詞"
+          },
+          {
+            "word": "mio",
+            "base": "mio",
+            "meaning": "私の",
+            "partOfSpeech": "所有形容詞"
+          },
+          {
+            "word": "libro",
+            "base": "libro",
+            "meaning": "本",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "questo＝this、è＝is、il mio libro＝my book。英語では所有語の前に冠詞を置かない."
+      }
+    },
+    {
+      "id": 16,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "私はスーパーでリンゴを3個買います。",
+      "answer": "Compro tre mele al supermercato.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "compro は comprare の1人称単数。複数の mele は mela の複数形。"
+          }
+        ],
+        "words": [
+          {
+            "word": "compro",
+            "base": "comprare",
+            "meaning": "買う",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "mele",
+            "base": "mela",
+            "meaning": "リンゴ",
+            "partOfSpeech": "名詞"
+          },
+          {
+            "word": "supermercato",
+            "base": "supermercato",
+            "meaning": "スーパー",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "compro＝I buy、tre mele＝three apples、al supermercato＝at the supermarket."
+      }
+    },
+    {
+      "id": 17,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "私の母は医者です。",
+      "answer": "Mia madre è medico.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "親族語の前では所有形容詞に冠詞を付けないことが多い。職業名は essere の後で無冠詞の場合がある。"
+          }
+        ],
+        "words": [
+          {
+            "word": "madre",
+            "base": "madre",
+            "meaning": "母",
+            "partOfSpeech": "名詞"
+          },
+          {
+            "word": "medico",
+            "base": "medico",
+            "meaning": "医者",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "mia madre＝my mother、è medico＝is a doctor。英語では通常 a doctor と冠詞を使う."
+      }
+    },
+    {
+      "id": 18,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "私は週末に海へ行きたいです。",
+      "answer": "Voglio andare al mare nel fine settimana.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "volere + 不定詞＝「〜したい」。andare al mare は「海へ行く」。"
+          }
+        ],
+        "words": [
+          {
+            "word": "voglio",
+            "base": "volere",
+            "meaning": "〜したい",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "andare",
+            "base": "andare",
+            "meaning": "行く",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "mare",
+            "base": "mare",
+            "meaning": "海",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "voglio＝I want、andare＝to go、nel fine settimana＝on the weekend."
+      }
+    },
+    {
+      "id": 19,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "あなたは何を食べたいですか？",
+      "answer": "Che cosa vuoi mangiare?",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "che cosa は「何」。vuoi は volere の2人称単数。助動詞的動詞の後は不定詞。"
+          }
+        ],
+        "words": [
+          {
+            "word": "che cosa",
+            "base": "che cosa",
+            "meaning": "何",
+            "partOfSpeech": "疑問表現"
+          },
+          {
+            "word": "vuoi",
+            "base": "volere",
+            "meaning": "君は〜したい",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "mangiare",
+            "base": "mangiare",
+            "meaning": "食べる",
+            "partOfSpeech": "動詞"
+          }
+        ],
+        "english": "che cosa＝what、vuoi＝you want、mangiare＝to eat."
+      }
+    },
+    {
+      "id": 20,
+      "category": "疑問文・前置詞",
+      "difficulty": "A1",
+      "question": "このレストランはあのレストランより高いです。",
+      "answer": "Questo ristorante è più caro di quello.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "比較級 più + 形容詞 + di。quello は「その／あのもの」で ristorante を受ける。"
+          }
+        ],
+        "words": [
+          {
+            "word": "ristorante",
+            "base": "ristorante",
+            "meaning": "レストラン",
+            "partOfSpeech": "名詞"
+          },
+          {
+            "word": "più caro",
+            "base": "caro",
+            "meaning": "より高い",
+            "partOfSpeech": "比較表現"
+          },
+          {
+            "word": "quello",
+            "base": "quello",
+            "meaning": "あれ／あのもの",
+            "partOfSpeech": "指示代名詞"
+          }
+        ],
+        "english": "più caro di＝more expensive than、questo＝this、quello＝that one."
+      }
+    },
+    {
+      "id": 21,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "昨日、私は映画を見ました。",
+      "answer": "Ieri ho visto un film.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "近過去は avere + 過去分詞。vedere の過去分詞は visto。"
+          }
+        ],
+        "words": [
+          {
+            "word": "ieri",
+            "base": "ieri",
+            "meaning": "昨日",
+            "partOfSpeech": "副詞"
+          },
+          {
+            "word": "ho visto",
+            "base": "vedere",
+            "meaning": "見た",
+            "partOfSpeech": "動詞・近過去"
+          },
+          {
+            "word": "film",
+            "base": "film",
+            "meaning": "映画",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "ieri＝yesterday、ho visto＝I saw/have seen、un film＝a movie."
+      }
+    },
+    {
+      "id": 22,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "先週、私たちはフィレンツェへ行きました。",
+      "answer": "La settimana scorsa siamo andati a Firenze.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "移動を表す andare は近過去で essere を使い、主語に一致して andati。"
+          }
+        ],
+        "words": [
+          {
+            "word": "settimana scorsa",
+            "base": "settimana scorsa",
+            "meaning": "先週",
+            "partOfSpeech": "名詞句"
+          },
+          {
+            "word": "siamo andati",
+            "base": "andare",
+            "meaning": "私たちは行った",
+            "partOfSpeech": "動詞・近過去"
+          },
+          {
+            "word": "Firenze",
+            "base": "Firenze",
+            "meaning": "フィレンツェ",
+            "partOfSpeech": "固有名詞"
+          }
+        ],
+        "english": "la settimana scorsa＝last week、siamo andati＝we went、a Firenze＝to Florence."
+      }
+    },
+    {
+      "id": 23,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "彼女は朝ご飯を食べませんでした。",
+      "answer": "Lei non ha fatto colazione.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "fare colazione は「朝食をとる」。近過去の否定は non を助動詞の前に置く。"
+          }
+        ],
+        "words": [
+          {
+            "word": "non",
+            "base": "non",
+            "meaning": "〜ない",
+            "partOfSpeech": "否定語"
+          },
+          {
+            "word": "ha fatto",
+            "base": "fare",
+            "meaning": "した／とった",
+            "partOfSpeech": "動詞・近過去"
+          },
+          {
+            "word": "colazione",
+            "base": "colazione",
+            "meaning": "朝食",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "non ha fatto＝she did not have/do、colazione＝breakfast."
+      }
+    },
+    {
+      "id": 24,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "あなたは昨日何をしましたか？",
+      "answer": "Che cosa hai fatto ieri?",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "che cosa hai fatto は「何をした？」。fare の過去分詞は fatto。"
+          }
+        ],
+        "words": [
+          {
+            "word": "hai fatto",
+            "base": "fare",
+            "meaning": "君はした",
+            "partOfSpeech": "動詞・近過去"
+          },
+          {
+            "word": "ieri",
+            "base": "ieri",
+            "meaning": "昨日",
+            "partOfSpeech": "副詞"
+          }
+        ],
+        "english": "hai fatto＝you did/have done、ieri＝yesterday. 英語は What did you do yesterday?"
+      }
+    },
+    {
+      "id": 25,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "私は子供の頃、毎日サッカーをしていました。",
+      "answer": "Da bambino giocavo a calcio ogni giorno.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "習慣・反復された過去は半過去 giocavo。giocare a + スポーツ。"
+          }
+        ],
+        "words": [
+          {
+            "word": "da bambino",
+            "base": "da bambino",
+            "meaning": "子供の頃",
+            "partOfSpeech": "副詞句"
+          },
+          {
+            "word": "giocavo",
+            "base": "giocare",
+            "meaning": "遊んでいた",
+            "partOfSpeech": "動詞・半過去"
+          },
+          {
+            "word": "calcio",
+            "base": "calcio",
+            "meaning": "サッカー",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "da bambino＝as a child、giocavo＝I used to play、ogni giorno＝every day."
+      }
+    },
+    {
+      "id": 26,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "昨日は雨が降っていました。",
+      "answer": "Ieri pioveva.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "天候の継続的な過去状態には半過去 pioveva。"
+          }
+        ],
+        "words": [
+          {
+            "word": "pioveva",
+            "base": "piovere",
+            "meaning": "雨が降っていた",
+            "partOfSpeech": "動詞・半過去"
+          },
+          {
+            "word": "ieri",
+            "base": "ieri",
+            "meaning": "昨日",
+            "partOfSpeech": "副詞"
+          }
+        ],
+        "english": "ieri＝yesterday、pioveva＝it was raining. 英語の過去進行形に近い場面がある."
+      }
+    },
+    {
+      "id": 27,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "私が家に帰ったとき、母は料理をしていました。",
+      "answer": "Quando sono tornato a casa, mia madre cucinava.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "sono tornato は完了した帰宅（近過去）、cucinava は背景で進行中の動作（半過去）。"
+          }
+        ],
+        "words": [
+          {
+            "word": "quando",
+            "base": "quando",
+            "meaning": "〜するとき",
+            "partOfSpeech": "接続詞"
+          },
+          {
+            "word": "tornato",
+            "base": "tornare",
+            "meaning": "戻った",
+            "partOfSpeech": "過去分詞"
+          },
+          {
+            "word": "cucinava",
+            "base": "cucinare",
+            "meaning": "料理していた",
+            "partOfSpeech": "動詞・半過去"
+          }
+        ],
+        "english": "quando＝when、sono tornato＝I returned、a casa＝home、cucinava＝was cooking."
+      }
+    },
+    {
+      "id": 28,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "私たちは2年前にイタリアに住んでいました。",
+      "answer": "Abitavamo in Italia due anni fa.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "半過去 abitavamo は過去の状態・継続。due anni fa は「2年前」。"
+          }
+        ],
+        "words": [
+          {
+            "word": "abitavamo",
+            "base": "abitare",
+            "meaning": "住んでいた",
+            "partOfSpeech": "動詞・半過去"
+          },
+          {
+            "word": "due anni fa",
+            "base": "due anni fa",
+            "meaning": "2年前",
+            "partOfSpeech": "副詞句"
+          }
+        ],
+        "english": "abitavamo＝we lived/used to live、in Italia＝in Italy、due anni fa＝two years ago."
+      }
+    },
+    {
+      "id": 29,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "私はまだ昼ご飯を食べていません。",
+      "answer": "Non ho ancora pranzato.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "non … ancora は「まだ〜していない」。pranzare の近過去は ho pranzato。"
+          }
+        ],
+        "words": [
+          {
+            "word": "ancora",
+            "base": "ancora",
+            "meaning": "まだ",
+            "partOfSpeech": "副詞"
+          },
+          {
+            "word": "pranzato",
+            "base": "pranzare",
+            "meaning": "昼食をとった",
+            "partOfSpeech": "過去分詞"
+          }
+        ],
+        "english": "non ancora＝not yet、pranzato＝had lunch。英語は I haven’t had lunch yet."
+      }
+    },
+    {
+      "id": 30,
+      "category": "過去形",
+      "difficulty": "A2",
+      "question": "彼はもう出発しました。",
+      "answer": "È già partito.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "essere を助動詞にする partire の近過去。partito は男性単数主語に一致。"
+          }
+        ],
+        "words": [
+          {
+            "word": "già",
+            "base": "già",
+            "meaning": "すでに／もう",
+            "partOfSpeech": "副詞"
+          },
+          {
+            "word": "partito",
+            "base": "partire",
+            "meaning": "出発した",
+            "partOfSpeech": "過去分詞"
+          }
+        ],
+        "english": "è partito＝he has left/left、già＝already."
+      }
+    },
+    {
+      "id": 31,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "私は彼を知っています。",
+      "answer": "Lo conosco.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "lo は男性単数の直接目的語代名詞で、動詞の前に置く。conoscere は「知っている／面識がある」。"
+          }
+        ],
+        "words": [
+          {
+            "word": "lo",
+            "base": "lo",
+            "meaning": "彼を／それを",
+            "partOfSpeech": "直接目的語代名詞"
+          },
+          {
+            "word": "conosco",
+            "base": "conoscere",
+            "meaning": "知っている",
+            "partOfSpeech": "動詞"
+          }
+        ],
+        "english": "lo＝him/it、conosco＝I know。英語は I know him."
+      }
+    },
+    {
+      "id": 32,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "私はそれを買いたいです。",
+      "answer": "Lo voglio comprare. / Voglio comprarlo.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "不定詞を伴う volere では代名詞を活用動詞の前か不定詞末尾に結合できる。"
+          }
+        ],
+        "words": [
+          {
+            "word": "comprare",
+            "base": "comprare",
+            "meaning": "買う",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "lo",
+            "base": "lo",
+            "meaning": "それを",
+            "partOfSpeech": "直接目的語代名詞"
+          }
+        ],
+        "english": "lo＝it、voglio＝I want、comprare＝to buy。英語は I want to buy it."
+      }
+    },
+    {
+      "id": 33,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "彼女に電話してください。",
+      "answer": "Chiamala.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "肯定命令形 chiam(a) に女性単数目的語 la を結合して chiamala。"
+          }
+        ],
+        "words": [
+          {
+            "word": "chiamala",
+            "base": "chiamare + la",
+            "meaning": "彼女に電話して",
+            "partOfSpeech": "命令形＋代名詞"
+          },
+          {
+            "word": "la",
+            "base": "lei",
+            "meaning": "彼女を",
+            "partOfSpeech": "代名詞"
+          }
+        ],
+        "english": "chiama＝call (you)、la＝her。英語は Call her."
+      }
+    },
+    {
+      "id": 34,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "私はあなたに一つ質問があります。",
+      "answer": "Ho una domanda da farti.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "avere una domanda da + 不定詞＝「〜する質問がある」。farti は fare + ti。"
+          }
+        ],
+        "words": [
+          {
+            "word": "domanda",
+            "base": "domanda",
+            "meaning": "質問",
+            "partOfSpeech": "名詞"
+          },
+          {
+            "word": "farti",
+            "base": "fare + ti",
+            "meaning": "君にする／尋ねる",
+            "partOfSpeech": "不定詞＋代名詞"
+          }
+        ],
+        "english": "una domanda＝a question、da farti＝to ask you。英語は I have a question to ask you."
+      }
+    },
+    {
+      "id": 35,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "私にそれを説明してください。",
+      "answer": "Spiegamelo.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "命令形 spieg(a) + mi + lo が結合して spiegamelo。語順は動詞＋間接＋直接代名詞。"
+          }
+        ],
+        "words": [
+          {
+            "word": "spiegamelo",
+            "base": "spiegare + mi + lo",
+            "meaning": "私にそれを説明して",
+            "partOfSpeech": "命令形＋代名詞"
+          },
+          {
+            "word": "mi",
+            "base": "mi",
+            "meaning": "私に",
+            "partOfSpeech": "代名詞"
+          }
+        ],
+        "english": "spiega＝explain、mi＝to me、lo＝it。英語は Explain it to me."
+      }
+    },
+    {
+      "id": 36,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "ここでタバコを吸ってはいけません。",
+      "answer": "Non si può fumare qui.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "si può + 不定詞は一般的な許可・可能性。「ここでは吸えない」。"
+          }
+        ],
+        "words": [
+          {
+            "word": "si può",
+            "base": "potere",
+            "meaning": "〜できる／許される",
+            "partOfSpeech": "非人称表現"
+          },
+          {
+            "word": "fumare",
+            "base": "fumare",
+            "meaning": "タバコを吸う",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "qui",
+            "base": "qui",
+            "meaning": "ここ",
+            "partOfSpeech": "副詞"
+          }
+        ],
+        "english": "non si può＝one cannot/is not allowed、fumare＝to smoke、qui＝here."
+      }
+    },
+    {
+      "id": 37,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "もっとゆっくり話してください。",
+      "answer": "Parli più lentamente, per favore.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "敬称の命令・依頼では3人称単数形 parli を使える。più lentamente は「もっとゆっくり」。"
+          }
+        ],
+        "words": [
+          {
+            "word": "parli",
+            "base": "parlare",
+            "meaning": "話してください",
+            "partOfSpeech": "敬称命令"
+          },
+          {
+            "word": "lentamente",
+            "base": "lentamente",
+            "meaning": "ゆっくり",
+            "partOfSpeech": "副詞"
+          },
+          {
+            "word": "per favore",
+            "base": "per favore",
+            "meaning": "お願いします",
+            "partOfSpeech": "定型表現"
+          }
+        ],
+        "english": "parli＝please speak (formal)、più lentamente＝more slowly、per favore＝please."
+      }
+    },
+    {
+      "id": 38,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "明日、早く起きなければなりません。",
+      "answer": "Devo alzarmi presto domani.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "dovere + 不定詞＝義務。再帰代名詞 mi は不定詞 alzare に結合して alzarmi。"
+          }
+        ],
+        "words": [
+          {
+            "word": "devo",
+            "base": "dovere",
+            "meaning": "〜しなければならない",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "alzarmi",
+            "base": "alzarsi",
+            "meaning": "起きる",
+            "partOfSpeech": "再帰動詞"
+          },
+          {
+            "word": "presto",
+            "base": "presto",
+            "meaning": "早く",
+            "partOfSpeech": "副詞"
+          }
+        ],
+        "english": "devo＝I must/have to、alzarmi＝get up、presto＝early、domani＝tomorrow."
+      }
+    },
+    {
+      "id": 39,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "私は泳ぐことができますが、ダイビングはできません。",
+      "answer": "So nuotare, ma non so fare immersioni.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "sapere + 不定詞は習得した技能「〜することができる」。fare immersioni はダイビングをする。"
+          }
+        ],
+        "words": [
+          {
+            "word": "so",
+            "base": "sapere",
+            "meaning": "〜する技能がある",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "nuotare",
+            "base": "nuotare",
+            "meaning": "泳ぐ",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "immersioni",
+            "base": "immersione",
+            "meaning": "ダイビング",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "so nuotare＝I can swim、non so fare＝I don’t know how to do、immersioni＝diving."
+      }
+    },
+    {
+      "id": 40,
+      "category": "代名詞・命令形",
+      "difficulty": "A2",
+      "question": "ここに座ってもいいですか？",
+      "answer": "Posso sedermi qui?",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "potere + 不定詞で許可を尋ねる。sedermi は sedere + mi。"
+          }
+        ],
+        "words": [
+          {
+            "word": "posso",
+            "base": "potere",
+            "meaning": "〜してもよい／できる",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "sedermi",
+            "base": "sedersi",
+            "meaning": "座る",
+            "partOfSpeech": "再帰動詞"
+          }
+        ],
+        "english": "posso＝may/can I、sedermi＝sit down、qui＝here."
+      }
+    },
+    {
+      "id": 41,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "明日は雨が降るでしょう。",
+      "answer": "Domani pioverà.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "未来形 pioverà。天候動詞 piovere の3人称単数未来。"
+          }
+        ],
+        "words": [
+          {
+            "word": "domani",
+            "base": "domani",
+            "meaning": "明日",
+            "partOfSpeech": "副詞"
+          },
+          {
+            "word": "pioverà",
+            "base": "piovere",
+            "meaning": "雨が降るだろう",
+            "partOfSpeech": "動詞・未来"
+          }
+        ],
+        "english": "domani＝tomorrow、pioverà＝it will rain."
+      }
+    },
+    {
+      "id": 42,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "来年、私はイタリアへ行くつもりです。",
+      "answer": "L’anno prossimo andrò in Italia.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "andare の1人称単数未来は andrò。不規則な未来語幹andr-。"
+          }
+        ],
+        "words": [
+          {
+            "word": "anno prossimo",
+            "base": "anno prossimo",
+            "meaning": "来年",
+            "partOfSpeech": "名詞句"
+          },
+          {
+            "word": "andrò",
+            "base": "andare",
+            "meaning": "私は行くだろう",
+            "partOfSpeech": "動詞・未来"
+          }
+        ],
+        "english": "l’anno prossimo＝next year、andrò＝I will go、in Italia＝to Italy."
+      }
+    },
+    {
+      "id": 43,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "私はあなたの立場なら、もっと勉強するでしょう。",
+      "answer": "Se fossi in te, studierei di più.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "非現実的な助言は se + 接続法半過去 fossi、主節は条件法 studierei。"
+          }
+        ],
+        "words": [
+          {
+            "word": "se",
+            "base": "se",
+            "meaning": "もし〜なら",
+            "partOfSpeech": "接続詞"
+          },
+          {
+            "word": "fossi",
+            "base": "essere",
+            "meaning": "もし私が〜なら",
+            "partOfSpeech": "接続法半過去"
+          },
+          {
+            "word": "studierei",
+            "base": "studiare",
+            "meaning": "私は勉強するだろう",
+            "partOfSpeech": "条件法"
+          }
+        ],
+        "english": "se fossi in te＝if I were you、studierei＝I would study、di più＝more."
+      }
+    },
+    {
+      "id": 44,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "コーヒーを一杯いただきたいのですが。",
+      "answer": "Vorrei un caffè, per favore.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "vorrei は volere の条件法で、丁寧な希望・注文を表す。"
+          }
+        ],
+        "words": [
+          {
+            "word": "vorrei",
+            "base": "volere",
+            "meaning": "〜をいただきたい",
+            "partOfSpeech": "条件法"
+          },
+          {
+            "word": "caffè",
+            "base": "caffè",
+            "meaning": "コーヒー",
+            "partOfSpeech": "名詞"
+          }
+        ],
+        "english": "vorrei＝I would like、un caffè＝a coffee、per favore＝please."
+      }
+    },
+    {
+      "id": 45,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "時間があれば、あなたを手伝います。",
+      "answer": "Se ho tempo, ti aiuto.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "現実的な条件では se + 直説法現在、主節も現在形で未来の意味を表せる。"
+          }
+        ],
+        "words": [
+          {
+            "word": "se",
+            "base": "se",
+            "meaning": "もし〜なら",
+            "partOfSpeech": "接続詞"
+          },
+          {
+            "word": "tempo",
+            "base": "tempo",
+            "meaning": "時間",
+            "partOfSpeech": "名詞"
+          },
+          {
+            "word": "ti aiuto",
+            "base": "aiutare",
+            "meaning": "君を手伝う",
+            "partOfSpeech": "動詞＋代名詞"
+          }
+        ],
+        "english": "se ho tempo＝if I have time、ti aiuto＝I’ll help you."
+      }
+    },
+    {
+      "id": 46,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "もしお金があったら、イタリアへ行くのに。",
+      "answer": "Se avessi soldi, andrei in Italia.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "仮定法過去に相当する非現実条件：se + 接続法半過去 avessi、条件法 andrei。"
+          }
+        ],
+        "words": [
+          {
+            "word": "avessi",
+            "base": "avere",
+            "meaning": "もし持っていたら",
+            "partOfSpeech": "接続法半過去"
+          },
+          {
+            "word": "soldi",
+            "base": "soldi",
+            "meaning": "お金",
+            "partOfSpeech": "名詞"
+          },
+          {
+            "word": "andrei",
+            "base": "andare",
+            "meaning": "私は行くだろう",
+            "partOfSpeech": "条件法"
+          }
+        ],
+        "english": "se avessi soldi＝if I had money、andrei＝I would go."
+      }
+    },
+    {
+      "id": 47,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "彼が来ることを願っています。",
+      "answer": "Spero che venga.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "spero che の後は願望を表す接続法。venire の接続法現在3人称単数は venga。"
+          }
+        ],
+        "words": [
+          {
+            "word": "spero",
+            "base": "sperare",
+            "meaning": "願う／希望する",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "che",
+            "base": "che",
+            "meaning": "〜ということ",
+            "partOfSpeech": "接続詞"
+          },
+          {
+            "word": "venga",
+            "base": "venire",
+            "meaning": "来る（接続法）",
+            "partOfSpeech": "動詞"
+          }
+        ],
+        "english": "spero＝I hope、che＝that、venga＝he comes/will come."
+      }
+    },
+    {
+      "id": 48,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "あなたが幸せであることが大切です。",
+      "answer": "È importante che tu sia felice.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "è importante che の後は接続法。essere の tu 接続法現在は sia。"
+          }
+        ],
+        "words": [
+          {
+            "word": "importante",
+            "base": "importante",
+            "meaning": "大切な",
+            "partOfSpeech": "形容詞"
+          },
+          {
+            "word": "sia",
+            "base": "essere",
+            "meaning": "〜である（接続法）",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "felice",
+            "base": "felice",
+            "meaning": "幸せな",
+            "partOfSpeech": "形容詞"
+          }
+        ],
+        "english": "è importante＝it is important、che tu sia＝that you are、felice＝happy."
+      }
+    },
+    {
+      "id": 49,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "私はイタリア語を話す人を探しています。",
+      "answer": "Cerco una persona che parli italiano.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "不特定の人を探す表現で、関係節の parli は接続法。話す人が特定されていない。"
+          }
+        ],
+        "words": [
+          {
+            "word": "cerco",
+            "base": "cercare",
+            "meaning": "探す",
+            "partOfSpeech": "動詞"
+          },
+          {
+            "word": "persona",
+            "base": "persona",
+            "meaning": "人",
+            "partOfSpeech": "名詞"
+          },
+          {
+            "word": "parli",
+            "base": "parlare",
+            "meaning": "話す（接続法）",
+            "partOfSpeech": "動詞"
+          }
+        ],
+        "english": "cerco＝I’m looking for、una persona＝a person、che parli＝who speaks、italiano＝Italian."
+      }
+    },
+    {
+      "id": 50,
+      "category": "未来・条件法・接続法",
+      "difficulty": "A2",
+      "question": "私はイタリア語をもっと上手に話せるようになりたいです。",
+      "answer": "Vorrei riuscire a parlare italiano meglio.",
+      "explanation": {
+        "grammar": [
+          {
+            "title": "文法",
+            "description": "vorrei + riuscire a + 不定詞で「〜できるようになりたい」。meglio は「より上手に」。"
+          }
+        ],
+        "words": [
+          {
+            "word": "riuscire a",
+            "base": "riuscire a",
+            "meaning": "〜できる／うまく〜する",
+            "partOfSpeech": "動詞句"
+          },
+          {
+            "word": "meglio",
+            "base": "bene",
+            "meaning": "より上手に",
+            "partOfSpeech": "副詞・比較級"
+          },
+          {
+            "word": "parlare",
+            "base": "parlare",
+            "meaning": "話す",
+            "partOfSpeech": "動詞"
+          }
+        ],
+        "english": "vorrei＝I would like、riuscire a＝manage to/be able to、parlare＝speak、meglio＝better."
+      }
+    }
   ]
 }

@@ -3,46 +3,47 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Italian Practice</title>
   <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
 </head>
 <body>
-  <main class="container">
-    <header>
-      <h1>Italian Practice 🇮🇹</h1>
-      <p>日本語からイタリア語へ、瞬間作文トレーニング</p>
+  <main class="app">
+    <header class="app-header">
+      <h1>Italian Practice</h1>
+      <p>日本語からイタリア語を組み立てる練習</p>
     </header>
 
     <section class="toolbar">
-      <label for="category">文法カテゴリ</label>
-      <select id="category">
-        <option value="all">すべて</option>
-      </select>
+      <div class="filter-group">
+        <label for="categoryFilter">文法カテゴリ</label>
+        <select id="categoryFilter">
+          <option value="all">すべて</option>
+        </select>
+      </div>
 
-      <button id="toggle-answers" class="primary">
+      <button id="toggleAnswers" type="button">
         解答を表示
       </button>
     </section>
 
-    <div class="summary">
-      <span id="count">読み込み中...</span>
-      <span id="completion">完了 0 問</span>
-    </div>
+    <section class="summary" aria-live="polite">
+      <span id="questionCount">表示：0問</span>
+      <span id="completionCount">完了：0 / 0問</span>
+    </section>
 
     <div class="table-wrapper">
       <table>
         <thead>
           <tr>
-            <th class="number">No.</th>
+            <th>No.</th>
             <th>日本語</th>
-            <th>イタリア語</th>
-            <th class="audio-column">音声</th>
-            <th class="check-column">完了</th>
+            <th>イタリア語・解説</th>
+            <th>音声</th>
+            <th>完了</th>
           </tr>
         </thead>
-        <tbody id="question-list">
+        <tbody id="questionTableBody">
           <tr>
             <td colspan="5">読み込み中...</td>
           </tr>
@@ -50,9 +51,12 @@
       </table>
     </div>
 
-    <footer>
-      <p>まずは日本語だけを見て、声に出して答えてみましょう。</p>
-    </footer>
+    <p class="help-text">
+      イタリア語の文にマウスを乗せるか、タップすると、
+      文法・単語・英語との対応を確認できます。
+    </p>
   </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
